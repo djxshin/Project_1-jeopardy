@@ -1,4 +1,4 @@
-const alphabetButtons = document.getElementById("buttons");
+
 const inputHold = document.getElementById("inputHold");
 const catagoryName = document.getElementById("catagoryName");
 const playerLives  = document.getElementById('playerLives')
@@ -43,21 +43,25 @@ const words = [
 
 
 var alphabetChoices = function () {
-    alphabetButtons = document.querySelector('#button')
+    let alphabetButtons = document.getElementById("buttons");
     listABC = document.createElement('ul')
 
-    for( let i=0; i<alphabet.lenght; i++){
-        alphaABC.setAttribute('id', 'abc')
+    for( let i=0; i< choices.length; i++){
+       listABC.setAttribute('id', 'abc')
     // The <ul> thats holding the <li> items will = the id of ‘Alphabet’
-        list = doucment.createElement('li')
+        var list = document.createElement('li')
     // We are adding the <div> to the dom
         list.setAttribute('id', 'singleLetter')
     // Alphabet array i[0] through i[25]  = singleLetter
         list.innerHTML = choices[i]
     // This actually lists i[0]-i[25] (a-z)  in the individual innerHTML in ID = letter
-        
-
-
+        // buttonClick();
+        alphabetButtons.appendChild(listABC)
+        // put the alphaButtons function (which is the actual buttons) into the ul 
+        listABC.appendChild(list)
+        // adding the alphabets into the buttons of the unordered list 
     }
 }
+
+alphabetChoices()
 
