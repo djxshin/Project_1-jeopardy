@@ -1,94 +1,67 @@
-/* body {
-    background:aqua;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    color:white;
-    height:100%;
-    text-align:center;
-    font-size:18px;
-  }
-
-  .wrappper{
-   
-    width:100%;
-    margin:0 auto;
-  }
-
-  h1, h2, h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	text-transform: uppercase;
-   margin:5px 0;
+.parent > div{
+    border: solid;
 }
 
-h1 {
-	font-size: 2.6em;
-}
-
-h2 {
-	font-size: 1.6em;
-}
-
-p{
-  font-size: 1.6em;
-}
-
-#alphabet {
+.parent{
+    display: grid;
+     /* defining how many columns there will be */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* define how many rows there will be */
+    grid-template-rows: 150px 75px 75px;
+    grid-template-areas: 
+    /* name our template section */
+    "box1 box2 box3 box4 box5"
+    "box6 box7 box8 box9 box10"
+    "box11 box12 box13 box14 box15";
+    grid-gap: 10px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
     
-    margin:15px auto;
-    padding:0;
-    max-width:900px;
-  }
 
-#alphabet li {
-    float:left;
-    margin: 0 10px 10px 0;
-    list-style:none;
-    width:35px;
-    height:30px;
-    padding-top:10px;
-    background:pink;
-    
-    cursor:pointer;
-  
-    border: solid 1px white;
 }
-
-#my-word {
-    margin: 0;
-    display: block;
-    padding: 0;
-    display:block;
-  }
-  
-  #my-word li {
-    position: relative;
-    list-style: none;
-    margin: 0;
-    display: inline-block;
-    padding: 0 10px;
-    font-size:1.6em;
-  }
-
-
-  
-  #mylives{
-    font-size:1.6em;
-    text-align:center;
-    display:block;
-  }
-  
-  button{
-
-    background:orange;
-    color:white;
-    border: solid 1px white;
-    text-decoration:none;
-    cursor:pointer;
-    font-size:1.2em;
-    padding:18px 10px;
-    width:180px;
-    margin: 10px;
-    outline: none;
-    
-    
-  } */
+.box1{
+    grid-area:box1;
+}
+.box2{
+    grid-area:box2;
+}
+.box3{
+    grid-area:box3;
+}
+.box4{
+    grid-area:box4;
+}
+.box5{
+    grid-area:box5;
+}
+.box6{
+    grid-area:box6;
+}
+.box7{
+    grid-area:box7;
+}
+.box8{
+    grid-area:box8;
+}
+.box9{
+    grid-area:box9;
+}
+.box10{
+    grid-area:box10;
+}
+.box11{
+    grid-area:box11;
+}
+.box12{
+    grid-area:box12;
+}
+.box13{
+    grid-area:box13;
+}
+.box14{
+    grid-area:box14;
+}
+.box15{
+    grid-area:box15;
+}
