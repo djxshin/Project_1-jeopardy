@@ -75,28 +75,47 @@
 
 #box6 {
     grid-area: box6;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box6:hover {
-    background-color: red;
+    background-color:rgb(218, 101, 101);
+    color:white;
 
 }
 
 #box7 {
     grid-area: box7;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box7:hover {
-    background-color: red;
-
+     background-color: rgb(126, 216, 216);
+     color:white;
 }
 
 #box8 {
-    grid-area: box8;
+    grid-area: box7;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
-
 #box8:hover {
-    background-color: red;
+    background-color: rgb(223, 160, 170);
+    color:white;
 
 }
 
