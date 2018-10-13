@@ -3,19 +3,20 @@
     /* defining how many columns there will be */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     /* define how many rows there will be */
-    grid-template-rows: 100px 150px 75px 75px 75px 75px 75px;
+    grid-template-rows:  100px 150px 75px 75px 75px 75px;
     grid-template-areas:
         /* name our template section */
+        
         "score header header header header"
         "box1 box2 box3 box4 box5"
         "box6 box7 box8 box9 box10"
         "box11 box12 box13 box14 box15"
         "box16 box17 box18 box19 box20"
-        "box21 box22 box23 box24 box25"
-        "box26 box27 box28 box29 box30";
+        "box21 box22 box23 box24 box25";
+        
 
     grid-gap: 20px;
-    padding-top: 20px;
+    padding-top: 100px;
     padding-right: 10px;
     padding-left: 10px;
 
@@ -27,6 +28,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
 #dollar{
     font-size:30px;
@@ -39,6 +41,7 @@
     background-repeat: no-repeat;
     background-size: 50% 100%;
     margin-left:180px;
+    
     
 }
 
@@ -120,7 +123,13 @@
 }
 
 #box9 {
-    grid-area: box9;
+    grid-area: box7;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box9:hover {
@@ -129,7 +138,13 @@
 }
 
 #box10 {
-    grid-area: box10;
+    grid-area: box7;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box10:hover {
