@@ -108,7 +108,7 @@
 }
 
 #box8 {
-    grid-area: box7;
+    grid-area: box8;
     height:100%;
     width:100%;
     color:blue;
@@ -123,7 +123,7 @@
 }
 
 #box9 {
-    grid-area: box7;
+    grid-area: box9;
     height:100%;
     width:100%;
     color:blue;
@@ -138,7 +138,7 @@
 }
 
 #box10 {
-    grid-area: box7;
+    grid-area: box10;
     height:100%;
     width:100%;
     color:blue;
@@ -154,6 +154,12 @@
 
 #box11 {
     grid-area: box11;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box11:hover {
@@ -163,6 +169,12 @@
 
 #box12 {
     grid-area: box12;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box12:hover {
@@ -172,6 +184,12 @@
 
 #box13 {
     grid-area: box13;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box13:hover {
@@ -181,6 +199,12 @@
 
 #box14 {
     grid-area: box14;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box14:hover {
@@ -190,6 +214,12 @@
 
 #box15 {
     grid-area: box15;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box15:hover {
@@ -198,6 +228,12 @@
 
 #box16 {
     grid-area: box16;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box16:hover {
@@ -206,6 +242,12 @@
 
 #box17 {
     grid-area: box17;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box17:hover {
@@ -214,6 +256,12 @@
 
 #box18 {
     grid-area: box18;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box18:hover {
@@ -222,6 +270,12 @@
 
 #box19 {
     grid-area: box19;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box19:hover {
@@ -230,6 +284,12 @@
 
 #box20 {
     grid-area: box20;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box20:hover {
@@ -238,6 +298,12 @@
 
 #box21 {
     grid-area: box21;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box21:hover {
@@ -246,6 +312,12 @@
 
 #box22 {
     grid-area: box22;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box22:hover {
@@ -254,6 +326,12 @@
 
 #box23 {
     grid-area: box23;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box23:hover {
@@ -262,6 +340,12 @@
 
 #box24 {
     grid-area: box24;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box24:hover {
@@ -270,6 +354,12 @@
 
 #box25 {
     grid-area: box25;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box25:hover {
@@ -278,6 +368,12 @@
 
 #box26 {
     grid-area: box26;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box26:hover {
@@ -286,6 +382,12 @@
 
 #box27 {
     grid-area: box27;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box27:hover {
@@ -294,6 +396,12 @@
 
 #box28 {
     grid-area: box28;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box28:hover {
@@ -302,6 +410,12 @@
 
 #box29 {
     grid-area: box29;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box29:hover {
@@ -310,6 +424,12 @@
 
 #box30 {
     grid-area: box30;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
 }
 
 #box30:hover {
