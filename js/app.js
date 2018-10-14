@@ -4,11 +4,11 @@ let zeroDollar = 0;
 let score = 0;
 // score value that stays
 
-// 1Q variables ID=#box6
-let A = document.querySelector("#A");
-let B = document.querySelector("#B");
-let C = document.querySelector("#C");
-let D = document.querySelector("#D");
+let question = document.querySelector('#question');
+let zeroCount = 0;
+let counter = 0;
+
+
 
 $(".modal-btn").on("click", function() {
   // .modal-btn which = classes for all 25 Q buttons; class onlick function
@@ -30,8 +30,11 @@ $(".modal-btn").on("click", function() {
   } else if ($(this).hasClass("fiveHundred")) {
     console.log("yea this is 5hundred");
     zeroDollar = 500;
+
   }
 });
+
+
 
 $(".modal-footer button").on("click", function() {
   if ($(this).attr("data-attribute") == "right") {
@@ -45,6 +48,15 @@ $(".modal-footer button").on("click", function() {
   dollar.innerHTML = score;
   // each time you click it'll update innerHTML whether right or wrong
 
+  if($(this).hasClass('btn-primary')){
+      zeroCount = 1;
+      console.log(zeroCount)
+  }
+
+ counter += zeroCount
+ console.log(zeroCount)
+count.innerHTML = counter;
+
   // traverse (moving up the dom tree to find closet .modal class)
   var gooey = $(this)
     .closest(".modal")
@@ -57,7 +69,6 @@ $(".modal-footer button").on("click", function() {
   gooey.removeAttr("data-toggle");
 
 });
-
 
 
 // A.addEventListener('click', function(){
