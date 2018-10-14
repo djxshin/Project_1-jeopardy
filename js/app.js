@@ -57,6 +57,9 @@ $(".modal-footer button").on("click", function() {
  console.log(zeroCount)
 count.innerHTML = counter;
 
+if (count.innerHTML > 19){
+    console.log("game is over")
+}
   // traverse (moving up the dom tree to find closet .modal class)
   var gooey = $(this)
     .closest(".modal")
