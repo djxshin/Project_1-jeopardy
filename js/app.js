@@ -55,6 +55,7 @@ $(".modal-footer button").on("click", function() {
     transition: "2000ms"
   });
   gooey.removeAttr("data-toggle");
+
 });
 
 
