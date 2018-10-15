@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+
+.container > div {
+    border: solid;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:  150px 150px 300px 150px;
+    grid-template-areas: 
+
+    "header header"
+    "header2 header2"
+    "detail detail"
+    "button1 button2"
+    "button1 button2";
+
+
+     grid-gap:10px;
+     padding-top: 50px;
+     padding-right: 15px;
+     padding-left: 15px;
+     
+     
+ }
+ 
+
+ #headerINDEX{
+     grid-area:header;
+     background-image: url(/IMG/QT.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+
+   
+ }
+ #headerINDEX2{
+     grid-area:header2;
+     background-image: url(/IMG/jeopardy2.gif);
+   
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     
+ }
+ #detail{
+     grid-area:detail;
+    
+ }
+ 
+ #button1{
+     grid-area:button1;
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ 
+ #button2{
+     grid-area:button2;
+     background-color: chartreuse;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.pButton{
+    text-decoration: none;
+    font-size:30px;
+    font-family: bold;
+}
