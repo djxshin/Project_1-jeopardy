@@ -35,7 +35,7 @@ Tally of who's turn it is on the bottom in case the plyaers lose track of who's 
 
 ## Technologies used.
 
-* Languages - HTML5, CSS3, Javascript, jQuery, bootstrap (modal) , sweetAlert (modal)
+* Languages - HTML5, CSS3, Javascript, jQuery
 * Project Planning & User Stories - Trello, Figma
 Design - bootstrap (modal) , sweetAlert (modal)
 * visual studio code

@@ -104,33 +104,3 @@ $(".modal-footer button").on("click", function() {
   gooey.removeAttr("data-toggle");
 });
 
-
-
-// A.addEventListener('click', function(){
-//     zeroDollar -= 100
-//     dollar.innerHTML = zeroDollar
-//     document.getElementsByClassName("btn")[0].style.opacity = "0"
-//     document.getElementsByClassName("btn")[0].style.transition = "2s"
-
-// })
-// B.addEventListener('click', function(){
-//     zeroDollar -= 100
-//     dollar.innerHTML = zeroDollar
-//     document.getElementsByClassName("btn")[0].style.opacity = "0"
-//     document.getElementsByClassName("btn")[0].style.transition = "2s"
-
-// })
-// C.addEventListener('click', function(){
-//     zeroDollar += 100
-//     dollar.innerHTML = zeroDollar
-//     document.getElementsByClassName("btn")[0].style.opacity = "0"
-//     document.getElementsByClassName("btn")[0].style.transition = "2s"
-//     document.getElementsByClassName("btn")[0].removeAttribute('data-toggle')
-// })
-// D.addEventListener('click', function(){
-//     zeroDollar -= 100
-//     dollar.innerHTML = zeroDollar
-//     document.getElementsByClassName("btn")[0].style.opacity = "0"
-//     document.getElementsByClassName("btn")[0].style.transition = "2s"
-
-// })
