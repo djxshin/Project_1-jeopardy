@@ -13,7 +13,7 @@ body{
     /* defining how many columns there will be */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     /* define how many rows there will be */
-    grid-template-rows:  100px 150px 75px 75px 75px 75px;
+    grid-template-rows:  100px 150px 75px 75px 75px 75px 75px;
     grid-template-areas:
         /* name our template section */
         
@@ -22,7 +22,8 @@ body{
         "box6 box7 box8 box9 box10"
         "box11 box12 box13 box14 box15"
         "box16 box17 box18 box19 box20"
-        "box21 box22 box23 box24 box25";
+        "box21 box22 box23 box24 box25"
+        "button1 button1 button1 button2 button2";
         
 
     grid-gap: 12px;
@@ -30,6 +31,28 @@ body{
     padding-right: 15px;
     padding-left: 15px;
 
+}
+#button1{
+    grid-area:button1;
+   background-color: aqua;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+#button2{
+    grid-area:button2;
+    background-color: chartreuse;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pButton{
+   text-decoration: none;
+   font-size:30px;
+   font-family: bold;
 }
 #question{
     grid-area:question;

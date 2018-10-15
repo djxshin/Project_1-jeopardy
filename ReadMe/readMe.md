@@ -8,7 +8,7 @@ First the users will be on the Home Page to have an idea that this will be a the
 
 With single player mode they'll play a Jeopardy game with 5 different categories that are organized by the films directed by Quentin Tarantino, overall there will be 5 categories.
 
-* For each category (films) it'll have four different point system, points will differ by each of the rows which will start fro 100 pts and the points will go up on consecutive order as follow:  
+* For each category (films) it'll have four different point system, points will differ by each of the rows which will start from 100 pts and the points will go up on consecutive order as follow:  
 
 * 100pts
 * 200ts

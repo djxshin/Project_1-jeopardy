@@ -9,7 +9,7 @@ body{
 .container{
     display: grid;
     grid-template-columns:1fr 1fr;
-    grid-template-rows:  150px 150px 300px 150px;
+    grid-template-rows:  150px 150px 375px 75px;
     grid-template-areas: 
 
     "header header"
@@ -70,4 +70,10 @@ body{
     text-decoration: none;
     font-size:30px;
     font-family: bold;
+}
+
+#instruct{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:white;
 }
