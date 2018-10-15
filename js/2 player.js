@@ -9,6 +9,8 @@ let zeroCount = 0;
 let counter = 0;
 let Player2 = 0;
 
+let alertP = document.querySelector('#alert')
+
 $(".modal-btn").on("click", function() {
   // .modal-btn which = classes for all 25 Q buttons; class onlick function
 
@@ -35,6 +37,9 @@ $(".modal-footer button").on("click", function() {
 
   counter += zeroCount;
 
+  
+
+
   if ($(this).attr("data-attribute") == "right" && counter % 2 == 1) {
     // if these buttons = data attribute = right, we add 100pts
     score += zeroDollar;
@@ -52,15 +57,28 @@ $(".modal-footer button").on("click", function() {
 
   if (dollar.innerHTML < 0) {
     swal(
-      "you reached negative points 😕  no worries, you can continue playing but please be more cautious with your answers"
+      "Player1  you reached negative points 😕  no worries, you can continue playing but please be more cautious with your answers"
+    );
+  }
+  if (count.innerHTML < 0) {
+    swal(
+      "Player2  you reached negative points 😕  no worries, you can continue playing but please be more cautious with your answers"
     );
   }
 
   if (counter > 19) {
-    swal(
-      "That's the Game! Thank you for playing! your final score is " +
-        dollar.innerHTML
-    );
+    if (dollar.innerHTML > count.innerHTML){
+      swal("player 1 is the winner!!!")
+    }
+    if (dollar.innerHTML < count.innerHTML){
+      swal("player 2 is the winner!!!")
+    }
+  }
+  
+  if (counter % 2 == 1) {
+    alertP.innerHTML = " Player 2 You're up!"
+  }else {
+    alertP.innerHTML = " Player 1 You're up!"
   }
 
   // traverse (moving up the dom tree to find closet .modal class)
@@ -74,6 +92,8 @@ $(".modal-footer button").on("click", function() {
   });
   gooey.removeAttr("data-toggle");
 });
+
+
 
 // A.addEventListener('click', function(){
 //     zeroDollar -= 100

@@ -1,0 +1,529 @@
+body{
+    background-image: url(/IMG/wallpaper.jpeg);
+    background-size: 100% 100%;
+    
+   
+    
+}
+
+.parent {
+    display: grid;
+    /* defining how many columns there will be */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* define how many rows there will be */
+    grid-template-rows:  50px 100px 150px 75px 75px 75px 75px 75px;
+    grid-template-areas:
+        /* name our template section */
+        "p1 empty empty empty p2"
+        "score header header header question"
+        "box1 box2 box3 box4 box5"
+        "box6 box7 box8 box9 box10"
+        "box11 box12 box13 box14 box15"
+        "box16 box17 box18 box19 box20"
+        "box21 box22 box23 box24 box25"
+        "A A A A A";
+        
+
+    grid-gap: 10px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#player1{
+    grid-area:p1;
+    border:solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+}
+#player2{
+    grid-area:p2;
+    border:solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+}
+#p1{
+    font-size:30px;
+    font-family: bold;
+    
+   
+}
+#p2{
+    font-size:30px;
+    font-family: bold;
+    
+}
+#empty{
+    grid-area:empty;
+}
+
+#question{
+    grid-area:question;
+    border:solid;
+    background-color:chartreuse;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#count{
+font-size:30px;
+font-family: bold;
+}
+#score{
+    grid-area:score;
+    border:solid;
+    background-color:chartreuse;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#dollar{
+    font-size:30px;
+    font-family: bold;
+}
+.header {
+    grid-area: header;
+    background-image: url(/IMG/jeopardy2.gif);
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+    
+}
+
+.box1 {
+    grid-area: box1;
+    border: solid;
+    background-image: url(/IMG/pulpfiction.jpg);
+    background-size:100% 100%;
+}
+
+.box2 {
+    grid-area: box2;
+    border: solid;
+    background-image: url(/IMG/killbill.jpg);
+    background-size:100% 100%;
+    
+}
+
+.box3 {
+    grid-area: box3;
+    border: solid;
+    background-image: url(/IMG/resovirdogs.jpeg);
+    background-size:100% 100%;
+    
+}
+
+.box4 {
+    grid-area: box4;
+    border: solid;
+    background-image: url(/IMG/jackiebrown.jpg);
+    background-size:100% 100%;
+}
+
+.box5 {
+    grid-area: box5;
+    border: solid;
+    background-image: url(/IMG/inglourious-basterds\ \(9\).jpg);
+    background-size:100% 100%;
+}
+
+#box6 {
+    grid-area: box6;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box6:hover {
+    background-color: black;
+    color:white;
+
+}
+
+#box7 {
+    grid-area: box7;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box7:hover {
+     background-color: yellow;
+     color:black;
+}
+
+#box8 {
+    grid-area: box8;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+#box8:hover {
+    background-color:white;
+    color:red;
+
+}
+
+#box9 {
+    grid-area: box9;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box9:hover {
+    background-color: black;
+    color:yellow
+
+}
+
+#box10 {
+    grid-area: box10;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box10:hover {
+    background-color: red;
+
+}
+
+#box11 {
+    grid-area: box11;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box11:hover {
+    background-color: black;
+    color:white;
+
+}
+
+#box12 {
+    grid-area: box12;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box12:hover {
+    background-color: yellow;
+    color:black;
+
+}
+
+#box13 {
+    grid-area: box13;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box13:hover {
+    background-color:white;
+    color:red;
+
+}
+
+#box14 {
+    grid-area: box14;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box14:hover {
+    background-color: black;
+    color:yellow
+
+}
+
+#box15 {
+    grid-area: box15;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box15:hover {
+    background-color: red;
+}
+
+#box16 {
+    grid-area: box16;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box16:hover {
+    background-color: black;
+    color:white;
+}
+
+#box17 {
+    grid-area: box17;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box17:hover {
+    background-color: yellow;
+    color:black;
+}
+
+#box18 {
+    grid-area: box18;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box18:hover {
+    background-color:white;
+    color:red;
+}
+
+#box19 {
+    grid-area: box19;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box19:hover {
+    background-color: black;
+    color:yellow
+}
+
+#box20 {
+    grid-area: box20;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box20:hover {
+    background-color: red;
+}
+
+#box21 {
+    grid-area: box21;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box21:hover {
+    background-color: black;
+    color:white;
+}
+
+#box22 {
+    grid-area: box22;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box22:hover {
+    background-color: yellow;
+     color:black;
+}
+
+#box23 {
+    grid-area: box23;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box23:hover {
+    background-color:white;
+    color:red;
+}
+
+#box24 {
+    grid-area: box24;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box24:hover {
+    background-color: black;
+    color:yellow
+}
+
+#box25 {
+    grid-area: box25;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box25:hover {
+    background-color: red;
+}
+
+#box26 {
+    grid-area: box26;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box26:hover {
+    background-color: red;
+}
+
+#box27 {
+    grid-area: box27;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box27:hover {
+    background-color: red;
+}
+
+#box28 {
+    grid-area: box28;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box28:hover {
+    background-color: red;
+}
+
+#box29 {
+    grid-area: box29;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box29:hover {
+    background-color: red;
+}
+
+#box30 {
+    grid-area: box30;
+    height:100%;
+    width:100%;
+    color:blue;
+    background-color:blue;
+    font-size:30px;
+    font-family: bold;
+}
+
+#box30:hover {
+    background-color: red;
+}
+
+
+
+/* modal */
+
+.modal-footer{
+    display:flex;
+    justify-content: center;
+}
+
+#pAlert{
+    grid-area: A;
+    border:solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+}
+#alert{
+    font-size:30px;
+    font-family: bold;
+}
