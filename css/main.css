@@ -129,8 +129,8 @@ font-family: bold;
 }
 
 #box7:hover {
-     background-color: rgb(126, 216, 216);
-     color:white;
+     background-color: yellow;
+     color:black;
 }
 
 #box8 {
@@ -143,8 +143,8 @@ font-family: bold;
     font-family: bold;
 }
 #box8:hover {
-    background-color: rgb(223, 160, 170);
-    color:white;
+    background-color:white;
+    color:red;
 
 }
 
@@ -159,7 +159,8 @@ font-family: bold;
 }
 
 #box9:hover {
-    background-color: red;
+    background-color: black;
+    color:yellow
 
 }
 
@@ -205,7 +206,8 @@ font-family: bold;
 }
 
 #box12:hover {
-    background-color: red;
+    background-color: yellow;
+    color:black;
 
 }
 
@@ -220,7 +222,8 @@ font-family: bold;
 }
 
 #box13:hover {
-    background-color: red;
+    background-color:white;
+    color:red;
 
 }
 
@@ -235,7 +238,8 @@ font-family: bold;
 }
 
 #box14:hover {
-    background-color: red;
+    background-color: black;
+    color:yellow
 
 }
 
@@ -279,7 +283,8 @@ font-family: bold;
 }
 
 #box17:hover {
-    background-color: red;
+    background-color: yellow;
+    color:black;
 }
 
 #box18 {
@@ -293,7 +298,8 @@ font-family: bold;
 }
 
 #box18:hover {
-    background-color: red;
+    background-color:white;
+    color:red;
 }
 
 #box19 {
@@ -307,7 +313,8 @@ font-family: bold;
 }
 
 #box19:hover {
-    background-color: red;
+    background-color: black;
+    color:yellow
 }
 
 #box20 {
@@ -350,7 +357,8 @@ font-family: bold;
 }
 
 #box22:hover {
-    background-color: red;
+    background-color: yellow;
+     color:black;
 }
 
 #box23 {
@@ -364,7 +372,8 @@ font-family: bold;
 }
 
 #box23:hover {
-    background-color: red;
+    background-color:white;
+    color:red;
 }
 
 #box24 {
@@ -378,7 +387,8 @@ font-family: bold;
 }
 
 #box24:hover {
-    background-color: red;
+    background-color: black;
+    color:yellow
 }
 
 #box25 {

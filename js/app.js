@@ -61,10 +61,10 @@ if(dollar.innerHTML < 0){
     swal("you reached negative points 😕  no worries, you can continue playing but please be more cautious with your answers")
 }
 
-if (count.innerHTML > 2){
+if (count.innerHTML > 19){
 
-    console.log("game is over")
-    swal('game over')
+   
+    swal("That's the Game! Thank you for playing! your final score is " + dollar.innerHTML)
 }
 
   // traverse (moving up the dom tree to find closet .modal class)
