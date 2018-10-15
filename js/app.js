@@ -15,20 +15,20 @@ $(".modal-btn").on("click", function() {
 
   if ($(this).hasClass("hundred")) {
     // if the button clicked aka (this) is '.hundred' class;
-    console.log("yea this is hundred");
+    
     zeroDollar = 100;
     // let zeroDollar value is 100;
   } else if ($(this).hasClass("twoHundred")) {
-    console.log("yea this is 2hundred");
+   
     zeroDollar = 200;
   } else if ($(this).hasClass("threeHundred")) {
-    console.log("yea this is 3hundred");
+   
     zeroDollar = 300;
   } else if ($(this).hasClass("fourHundred")) {
-    console.log("yea this is 4hundred");
+   
     zeroDollar = 400;
   } else if ($(this).hasClass("fiveHundred")) {
-    console.log("yea this is 5hundred");
+    
     zeroDollar = 500;
 
   }
@@ -50,14 +50,22 @@ $(".modal-footer button").on("click", function() {
 
   if($(this).hasClass('btn-primary')){
       zeroCount = 1;
-      console.log(zeroCount)
+     
   }
 
  counter += zeroCount
- console.log(zeroCount)
+ 
 count.innerHTML = counter;
 
+if(dollar.innerHTML < 0){
+    swal("you reached negative points 😕  no worries, you can continue playing but please be more cautious with your answers")
+}
 
+if (count.innerHTML > 2){
+
+    console.log("game is over")
+    swal('game over')
+}
 
   // traverse (moving up the dom tree to find closet .modal class)
   var gooey = $(this)

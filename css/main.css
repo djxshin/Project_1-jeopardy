@@ -1,3 +1,11 @@
+body{
+    background-image: url(/IMG/wallpaper.jpeg);
+    background-size: 100% 100%;
+    
+   
+    
+}
+
 .parent {
     display: grid;
     /* defining how many columns there will be */
@@ -16,7 +24,7 @@
         
 
     grid-gap: 12px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-right: 15px;
     padding-left: 15px;
 
@@ -24,7 +32,7 @@
 #question{
     grid-area:question;
     border:solid;
-    background-color:rgba(228, 228, 109, 0.788);
+    background-color:chartreuse;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +44,7 @@ font-family: bold;
 #score{
     grid-area:score;
     border:solid;
-    background-color:rgba(228, 228, 109, 0.788);
+    background-color:chartreuse;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +113,7 @@ font-family: bold;
 }
 
 #box6:hover {
-    background-color:rgb(218, 101, 101);
+    background-color: black;
     color:white;
 
 }
@@ -181,7 +189,8 @@ font-family: bold;
 }
 
 #box11:hover {
-    background-color: red;
+    background-color: black;
+    color:white;
 
 }
 
@@ -255,7 +264,8 @@ font-family: bold;
 }
 
 #box16:hover {
-    background-color: red;
+    background-color: black;
+    color:white;
 }
 
 #box17 {
@@ -325,7 +335,8 @@ font-family: bold;
 }
 
 #box21:hover {
-    background-color: red;
+    background-color: black;
+    color:white;
 }
 
 #box22 {
