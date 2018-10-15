@@ -43,13 +43,18 @@ Design - bootstrap (modal) , sweetAlert (modal)
 
 [figma] (https://www.figma.com/file/Xevxx9VvYA3QldpyO54UOe0i/Quentin-Tarantino-Jeopardy?node-id=0%3A1)
 
+## Trello
+ 
+[trello] (https://trello.com/b/r8Om3OvS/project-1-hangman)
+
 ## Future Development
 
-* Add A.I. (player vs. computer)
+* Add A.I. {player vs. computer}
 * Add for CSS styling
 * Daily Double feature
 * Add some advertisement 
 * Add a video visual for Winner
+
 
 
 
