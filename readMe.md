@@ -31,7 +31,7 @@ Everything in two player mode is basically the same except for:
 two seprate innerHTML to keep track of points for each player
 Tally of who's turn it is on the bottom in case the plyaers lose track of who's turn it is.
 
-[link to the game] (http://stoic-mclean-bd2f10.netlify.com/g)
+[link to the game] (http://stoic-mclean-bd2f10.netlify.com/)
 
 ## Technologies used.
 
