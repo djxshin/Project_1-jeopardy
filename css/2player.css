@@ -1,5 +1,5 @@
 body{
-    background-image: url(/IMG/wallpaper.jpeg);
+    background-image: url(../IMG/wallpaper.jpeg);
     background-size: 100% 100%;
     
    
@@ -111,7 +111,7 @@ font-family: bold;
 }
 .header {
     grid-area: header;
-    background-image: url(/IMG/jeopardy2.gif);
+    background-image: url(../IMG/jeopardy2.gif);
    
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -123,14 +123,14 @@ font-family: bold;
 .box1 {
     grid-area: box1;
     border: solid;
-    background-image: url(/IMG/pulpfiction.jpg);
+    background-image: url(../IMG/pulpfiction.jpg);
     background-size:100% 100%;
 }
 
 .box2 {
     grid-area: box2;
     border: solid;
-    background-image: url(/IMG/killbill.jpg);
+    background-image: url(../IMG/killbill.jpg);
     background-size:100% 100%;
     
 }
@@ -138,7 +138,7 @@ font-family: bold;
 .box3 {
     grid-area: box3;
     border: solid;
-    background-image: url(/IMG/resovirdogs.jpeg);
+    background-image: url(../IMG/resovirdogs.jpeg);
     background-size:100% 100%;
     
 }
@@ -146,14 +146,14 @@ font-family: bold;
 .box4 {
     grid-area: box4;
     border: solid;
-    background-image: url(/IMG/jackiebrown.jpg);
+    background-image: url(../IMG/jackiebrown.jpg);
     background-size:100% 100%;
 }
 
 .box5 {
     grid-area: box5;
     border: solid;
-    background-image: url(/IMG/inglourious-basterds\ \(9\).jpg);
+    background-image: url(../IMG/inglourious.jpg);
     background-size:100% 100%;
 }
 

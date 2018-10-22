@@ -30,7 +30,7 @@ body{
 
  #headerINDEX{
      grid-area:header;
-     background-image: url(/IMG/QT.jpg);
+     background-image: url(../IMG/QT.jpg);
      background-repeat: no-repeat;
      background-size: 100% 100%;
 
@@ -38,7 +38,7 @@ body{
  }
  #headerINDEX2{
      grid-area:header2;
-     background-image: url(/IMG/jeopardy2.gif);
+     background-image: url(../IMG/jeopardy2.gif);
    
      background-repeat: no-repeat;
      background-size: 100% 100%;
